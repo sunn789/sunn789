@@ -1,54 +1,86 @@
 # Hi, I’m Sunn789 👋
 
-## Backend & Full-Stack .NET Developer
+## Backend & Full-Stack Software Developer
 
-I build secure, maintainable business applications that turn complex workflows into clear, reliable software. My strongest experience is in **ASP.NET Core backend development**, **Clean Architecture**, **CQRS**, **Entity Framework Core**, and modern web clients with **Angular** and **Razor Pages**.
+I design and build business applications, APIs, websites, dashboards, mobile apps, and practical AI/data experiments. My main professional direction is **.NET backend and full-stack development**, with additional hands-on work in **Flutter/Dart**, **Angular**, and **Python computer vision and speech processing**.
 
-I’m especially interested in roles where I can work on APIs, financial or operational systems, authorization, data-heavy workflows, and products that need a thoughtful balance of correctness, security, and usability.
+I enjoy turning real business requirements into maintainable software: modeling the domain, designing secure APIs, implementing workflows, connecting data, and delivering a usable interface.
 
-## What I bring
+## Main application: Accountant3 / YAccountant
 
-- Design and implement REST APIs with ASP.NET Core and OpenAPI
-- Structure applications with separation of concerns across API, Application, Core, Infrastructure, and UI layers
-- Build feature-oriented CQRS workflows with MediatR, AutoMapper, and FluentValidation
-- Model and query relational data with Entity Framework Core, SQLite, and SQL Server
-- Implement authentication and authorization with ASP.NET Core Identity, JWT, roles, claims, and policy-based rules
-- Build responsive authenticated interfaces with Angular, route guards, HTTP interceptors, and Razor Pages
-- Add operational safeguards such as health checks, database initialization, validation, pagination, and centralized API responses
-- Work with domain concepts such as budgeting, allocations, expenses, centers, users, roles, approvals, reports, and dashboards
+[View Accountant3 on GitHub →](https://github.com/sunn789/accountant3)
 
-## Featured project: YAccountant
+Accountant3 is my main and most complete application: a financial and administrative management platform for budgets, expenses, organizational centers, users, approvals, and reporting.
 
-A multi-layer financial management platform for managing budgets and expenses across organizational centers.
+### What I developed
 
-**Highlights**
+- A secure ASP.NET Core API for budget allocations, adjustments, expenses, items, centers, users, dashboards, reports, and payments
+- Financial workflows including monthly expense registration, editing, approval, deletion, debt details, budget locking, and yearly summaries
+- Role- and center-aware authorization for administrators, accountants, and users restricted to their own organizational center
+- JWT authentication, ASP.NET Core Identity, roles, claims, authorization policies, and refresh-token-related domain support
+- Health-check endpoints, database initialization, migrations, validation, pagination, centralized API responses, and OpenAPI/Scalar documentation
+- An Angular UI with authenticated routing, lazy-loaded features, route guards, role guards, HTTP authentication interceptors, dashboards, user management, centers, and budget allocation screens
+- A Razor Pages UI for server-rendered administration and financial workflows
 
-- Budget allocation and adjustment workflows with approval and rejection states
-- Monthly expense registration, editing, deletion, debt details, and yearly reporting
-- Dashboard summaries, financial overviews, expense trends, and cost analysis
-- Role-aware access for administrators, accountants, and center-scoped users
-- JWT-secured API alongside an Identity-enabled Razor Pages application
-- Angular client with lazy-loaded features, authentication guards, role guards, and reusable services
-- Health-check endpoints, database migrations, seeded identity data, and OpenAPI/Scalar API documentation
+### Architecture and engineering
 
-**Technology**
+Accountant3 is organized using **Clean Architecture** principles, with clear boundaries between the API, Application, Core/Domain, Infrastructure, Contracts, and UI layers. Application features follow a **Vertical Slice / feature-oriented structure**, keeping commands, queries, handlers, validators, DTOs, mappings, and related behavior close to the use case they implement.
 
-`C#` `ASP.NET Core` `.NET 10` `MediatR` `CQRS` `Entity Framework Core` `SQL Server` `SQLite` `ASP.NET Core Identity` `JWT` `Angular` `TypeScript` `Razor Pages` `OpenAPI`
+The project demonstrates my ability to work with:
 
-[View the YAccountant repository →](https://github.com/sunn789/accountant3)
+`C#` `ASP.NET Core` `.NET 10` `MediatR` `CQRS` `Entity Framework Core` `SQL Server` `SQLite` `ASP.NET Core Identity` `JWT` `FluentValidation` `AutoMapper` `Angular` `TypeScript` `Razor Pages` `OpenAPI`
 
-## Engineering approach
+## Flutter applications
 
-I value readable code, explicit boundaries, secure defaults, meaningful validation, and features that are understandable from the domain outward. I enjoy taking a requirement from its business meaning through the domain model, application use case, API contract, persistence layer, and user interface.
+I also develop cross-platform mobile applications with Flutter and Dart. My Flutter repositories include:
 
-## Currently focused on
+- [simpleshop_flutter](https://github.com/sunn789/simpleshop_flutter) — a Flutter product/shop application with mobile, web, desktop, and platform project targets
+- [flutter_categoryItem](https://github.com/sunn789/flutter_categoryItem) — a Flutter application focused on displaying and filtering items by category
 
-- Strengthening production readiness, testing, and observability in business applications
-- Improving API design and documentation
-- Deepening expertise in scalable .NET systems and modern Angular applications
+These projects show my ability to build cross-platform UI, organize Flutter applications, work with Dart, and target Android, iOS, web, Windows, macOS, and Linux environments.
 
-## Let’s connect
+## Other .NET websites and applications
 
-If you are hiring a .NET backend or full-stack developer for a product involving APIs, finance, administration, or workflow-heavy systems, I’d be glad to connect.
+Alongside Accountant3, my GitHub contains several ASP.NET/C# applications and website experiments, including:
+
+- [Razor_Chat_with_AI](https://github.com/sunn789/Razor_Chat_with_AI) — a Razor-based AI chat application
+- [Razor-APP-Chat-will-ollama](https://github.com/sunn789/Razor-APP-Chat-will-ollama) — a Razor application exploring local AI chat integration
+- [Simple_CRUD](https://github.com/sunn789/Simple_CRUD) and [CRUD](https://github.com/sunn789/CRUD) — CRUD-focused web application examples
+- [user-login-tracking](https://github.com/sunn789/user-login-tracking) — ASP.NET Core MVC guidance and implementation for secure login tracking
+- [send-SMS--from-excel](https://github.com/sunn789/send-SMS--from-excel) — a C# utility for working with Excel data and SMS workflows
+
+I have also built dashboard and administration interfaces using HTML, CSS, JavaScript, Bootstrap, and TypeScript.
+
+## Python projects: computer vision and speech processing
+
+My Python work includes practical computer vision, machine learning, and audio-analysis projects:
+
+- [face_detection_and_embading_in_python_with_webcam](https://github.com/sunn789/face_detection_and_embading_in_python_with_webcam) — real-time webcam face detection with OpenCV and MediaPipe, including facial landmarks for the eyes, nose, mouth, and ears
+- [Face_detect_in_deeplearning](https://github.com/sunn789/Face_detect_in_deeplearning) — real-time and image-based face detection using MediaPipe Tasks, BlazeFace/TFLite, OpenCV, and CPU-optimized inference
+- [noise_analyze_practice_4](https://github.com/sunn789/noise_analyze_practice_4) — speech-feature robustness analysis using MFCC, LPC, PLP, PLP-Rasta, noise generation, spectral subtraction, and Wiener filtering
+- [analyze-sound-with-ai-Practice-5](https://github.com/sunn789/analyze-sound-with-ai-Practice-5) and [Practice 2](https://github.com/sunn789/analyze-sound-with-ai-Practice-2) — additional sound and AI experimentation
+- [Qrcode_in_python](https://github.com/sunn789/Qrcode_in_python) — Python QR-code development practice
+
+These projects demonstrate experience with Python, OpenCV, MediaPipe, TFLite models, NumPy, Librosa, Matplotlib, SciPy, feature extraction, signal processing, and experimentation with real-world data.
+
+## Core abilities
+
+- **Backend:** ASP.NET Core, REST APIs, C#, .NET, MediatR, CQRS, Vertical Slice Architecture
+- **Architecture:** Clean Architecture, domain modeling, separation of concerns, feature-oriented design
+- **Data:** Entity Framework Core, SQL Server, SQLite, migrations, repositories, unit of work, pagination
+- **Security:** ASP.NET Core Identity, JWT, roles, claims, authorization policies, center-scoped access
+- **Frontend:** Angular, TypeScript, Razor Pages, HTML, CSS, JavaScript, Bootstrap
+- **Mobile:** Flutter and Dart with multi-platform project targets
+- **Python/AI:** OpenCV, MediaPipe, TFLite, NumPy, Librosa, SciPy, Matplotlib, computer vision, speech and audio analysis
+- **Engineering practices:** validation, API documentation, health checks, database seeding, reusable services, maintainable code, and production-minded workflows
+
+## How I work
+
+I prefer readable code, explicit boundaries, secure defaults, meaningful validation, and software that reflects the business domain. I can contribute across the full path from requirement and domain model to application use case, database, API contract, UI, and deployment preparation.
+
+## Open to opportunities
+
+I’m interested in opportunities as a **.NET Backend Developer**, **Full-Stack Developer**, or **Software Engineer** working on APIs, finance and administration platforms, workflow-heavy products, dashboards, mobile applications, or applied AI/data tools.
 
 - GitHub: [@sunn789](https://github.com/sunn789)
+- Main project: [Accountant3](https://github.com/sunn789/accountant3)
