@@ -1,86 +1,146 @@
-# Hi, I’m Sunn789 👋
+<div align="center">
 
-## Backend & Full-Stack Software Developer
+# Sunn789
 
-I design and build business applications, APIs, websites, dashboards, mobile apps, and practical AI/data experiments. My main professional direction is **.NET backend and full-stack development**, with additional hands-on work in **Flutter/Dart**, **Angular**, and **Python computer vision and speech processing**.
+### Backend & Full-Stack Developer | .NET Specialist | Flutter & Python Developer
 
-I enjoy turning real business requirements into maintainable software: modeling the domain, designing secure APIs, implementing workflows, connecting data, and delivering a usable interface.
+<a href="https://github.com/sunn789/accountant3"><img src="https://img.shields.io/badge/Main_Project-Accountant3-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Accountant3"></a>
+<a href="https://github.com/sunn789"><img src="https://img.shields.io/badge/GitHub-sunn789-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+<a href="https://github.com/sunn789/simpleshop_flutter"><img src="https://img.shields.io/badge/Mobile-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"></a>
 
-## Main application: Accountant3 / YAccountant
+**I build secure business systems, clean APIs, responsive web interfaces, cross-platform mobile apps, and practical Python AI projects.**
 
-[View Accountant3 on GitHub →](https://github.com/sunn789/accountant3)
+</div>
 
-Accountant3 is my main and most complete application: a financial and administrative management platform for budgets, expenses, organizational centers, users, approvals, and reporting.
+---
+
+## 👋 About me
+
+I am a software developer focused on building real-world applications from the domain model to the user interface. My strongest area is **ASP.NET Core backend and full-stack development**, complemented by hands-on experience with **Angular**, **Razor Pages**, **Flutter/Dart**, and **Python computer vision and speech processing**.
+
+I enjoy solving workflow-heavy problems: understanding the business rules, designing a maintainable architecture, protecting data with proper authorization, and delivering software that people can actually use.
+
+## ⭐ Main project: Accountant3 / YAccountant
+
+<div align="center">
+
+### A financial management platform for budgets, expenses, centers, approvals, and reporting
+
+[![Open Accountant3](https://img.shields.io/badge/Explore_Accountant3-View_Repository-512BD4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunn789/accountant3)
+
+</div>
+
+Accountant3 is my main and most complete application. It is a multi-layer financial and administrative platform built to manage organizational centers, budgets, allocations, expenses, users, approvals, dashboards, and reports.
 
 ### What I developed
 
-- A secure ASP.NET Core API for budget allocations, adjustments, expenses, items, centers, users, dashboards, reports, and payments
-- Financial workflows including monthly expense registration, editing, approval, deletion, debt details, budget locking, and yearly summaries
-- Role- and center-aware authorization for administrators, accountants, and users restricted to their own organizational center
-- JWT authentication, ASP.NET Core Identity, roles, claims, authorization policies, and refresh-token-related domain support
-- Health-check endpoints, database initialization, migrations, validation, pagination, centralized API responses, and OpenAPI/Scalar documentation
-- An Angular UI with authenticated routing, lazy-loaded features, route guards, role guards, HTTP authentication interceptors, dashboards, user management, centers, and budget allocation screens
-- A Razor Pages UI for server-rendered administration and financial workflows
+| Area | Capabilities |
+|---|---|
+| **Backend API** | ASP.NET Core REST API for budgets, adjustments, expenses, items, centers, users, dashboards, reports, and payments |
+| **Business workflows** | Monthly expense registration, editing, approval, deletion, debt details, budget locking, and yearly summaries |
+| **Security** | JWT authentication, ASP.NET Core Identity, roles, claims, authorization policies, and center-scoped access |
+| **Angular UI** | Authenticated routing, lazy-loaded features, route guards, role guards, HTTP interceptors, dashboards, user management, centers, and budget screens |
+| **Razor UI** | Server-rendered administration and financial workflow pages with Identity integration |
+| **Operations** | Health checks, database initialization, migrations, validation, pagination, centralized API responses, and OpenAPI/Scalar documentation |
 
-### Architecture and engineering
+### Architecture
 
-Accountant3 is organized using **Clean Architecture** principles, with clear boundaries between the API, Application, Core/Domain, Infrastructure, Contracts, and UI layers. Application features follow a **Vertical Slice / feature-oriented structure**, keeping commands, queries, handlers, validators, DTOs, mappings, and related behavior close to the use case they implement.
+Accountant3 is structured around **Clean Architecture** with clear boundaries between:
 
-The project demonstrates my ability to work with:
+```text
+API  →  Application  →  Core / Domain
+          ↓                 ↑
+     Infrastructure  ←  Contracts
+          ↓
+   SQL Server / SQLite
 
-`C#` `ASP.NET Core` `.NET 10` `MediatR` `CQRS` `Entity Framework Core` `SQL Server` `SQLite` `ASP.NET Core Identity` `JWT` `FluentValidation` `AutoMapper` `Angular` `TypeScript` `Razor Pages` `OpenAPI`
+Angular UI + Razor Pages UI
+```
 
-## Flutter applications
+Application features follow a **Vertical Slice / feature-oriented structure**. Commands, queries, handlers, validators, DTOs, mappings, and related behavior stay close to the use case they implement. This keeps the codebase easier to navigate, test, extend, and maintain.
 
-I also develop cross-platform mobile applications with Flutter and Dart. My Flutter repositories include:
+**Core stack:**
 
-- [simpleshop_flutter](https://github.com/sunn789/simpleshop_flutter) — a Flutter product/shop application with mobile, web, desktop, and platform project targets
-- [flutter_categoryItem](https://github.com/sunn789/flutter_categoryItem) — a Flutter application focused on displaying and filtering items by category
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=swagger&logoColor=white)
 
-These projects show my ability to build cross-platform UI, organize Flutter applications, work with Dart, and target Android, iOS, web, Windows, macOS, and Linux environments.
+## 📱 Flutter applications
 
-## Other .NET websites and applications
+I build cross-platform mobile experiences with Flutter and Dart. These projects show my ability to create reusable UI, organize Flutter applications, and target multiple platforms.
 
-Alongside Accountant3, my GitHub contains several ASP.NET/C# applications and website experiments, including:
+| Project | Description |
+|---|---|
+| [**simpleshop_flutter**](https://github.com/sunn789/simpleshop_flutter) | Product/shop application with Android, iOS, web, Windows, macOS, and Linux targets |
+| [**flutter_categoryItem**](https://github.com/sunn789/flutter_categoryItem) | Flutter application for displaying and filtering items by category |
 
-- [Razor_Chat_with_AI](https://github.com/sunn789/Razor_Chat_with_AI) — a Razor-based AI chat application
-- [Razor-APP-Chat-will-ollama](https://github.com/sunn789/Razor-APP-Chat-will-ollama) — a Razor application exploring local AI chat integration
-- [Simple_CRUD](https://github.com/sunn789/Simple_CRUD) and [CRUD](https://github.com/sunn789/CRUD) — CRUD-focused web application examples
-- [user-login-tracking](https://github.com/sunn789/user-login-tracking) — ASP.NET Core MVC guidance and implementation for secure login tracking
-- [send-SMS--from-excel](https://github.com/sunn789/send-SMS--from-excel) — a C# utility for working with Excel data and SMS workflows
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
-I have also built dashboard and administration interfaces using HTML, CSS, JavaScript, Bootstrap, and TypeScript.
+## 🌐 Other .NET websites and applications
 
-## Python projects: computer vision and speech processing
+Beyond Accountant3, I have built and explored several ASP.NET/C# applications and web interfaces:
 
-My Python work includes practical computer vision, machine learning, and audio-analysis projects:
+- [**Razor_Chat_with_AI**](https://github.com/sunn789/Razor_Chat_with_AI) — Razor-based AI chat application
+- [**Razor-APP-Chat-will-ollama**](https://github.com/sunn789/Razor-APP-Chat-will-ollama) — Razor application exploring local AI chat integration
+- [**Simple_CRUD**](https://github.com/sunn789/Simple_CRUD) and [**CRUD**](https://github.com/sunn789/CRUD) — CRUD-focused web application examples
+- [**user-login-tracking**](https://github.com/sunn789/user-login-tracking) — ASP.NET Core MVC login-tracking guidance and implementation
+- [**send-SMS--from-excel**](https://github.com/sunn789/send-SMS--from-excel) — C# utility for Excel data and SMS workflows
+- Dashboard and administration interfaces built with HTML, CSS, JavaScript, Bootstrap, and TypeScript
 
-- [face_detection_and_embading_in_python_with_webcam](https://github.com/sunn789/face_detection_and_embading_in_python_with_webcam) — real-time webcam face detection with OpenCV and MediaPipe, including facial landmarks for the eyes, nose, mouth, and ears
-- [Face_detect_in_deeplearning](https://github.com/sunn789/Face_detect_in_deeplearning) — real-time and image-based face detection using MediaPipe Tasks, BlazeFace/TFLite, OpenCV, and CPU-optimized inference
-- [noise_analyze_practice_4](https://github.com/sunn789/noise_analyze_practice_4) — speech-feature robustness analysis using MFCC, LPC, PLP, PLP-Rasta, noise generation, spectral subtraction, and Wiener filtering
-- [analyze-sound-with-ai-Practice-5](https://github.com/sunn789/analyze-sound-with-ai-Practice-5) and [Practice 2](https://github.com/sunn789/analyze-sound-with-ai-Practice-2) — additional sound and AI experimentation
-- [Qrcode_in_python](https://github.com/sunn789/Qrcode_in_python) — Python QR-code development practice
+## 🐍 Python, computer vision & audio projects
 
-These projects demonstrate experience with Python, OpenCV, MediaPipe, TFLite models, NumPy, Librosa, Matplotlib, SciPy, feature extraction, signal processing, and experimentation with real-world data.
+My Python repositories demonstrate practical experimentation with computer vision, deep-learning inference, speech features, and signal processing:
 
-## Core abilities
+| Project | What it demonstrates |
+|---|---|
+| [**Face detection with webcam**](https://github.com/sunn789/face_detection_and_embading_in_python_with_webcam) | Real-time face detection with OpenCV and MediaPipe, including facial landmarks for eyes, nose, mouth, and ears |
+| [**Face_detect_in_deeplearning**](https://github.com/sunn789/Face_detect_in_deeplearning) | Image and webcam detection using MediaPipe Tasks, BlazeFace/TFLite, OpenCV, and CPU-optimized inference |
+| [**noise_analyze_practice_4**](https://github.com/sunn789/noise_analyze_practice_4) | MFCC, LPC, PLP, PLP-Rasta, noise generation, spectral subtraction, and Wiener filtering |
+| [**analyze-sound-with-ai-Practice-5**](https://github.com/sunn789/analyze-sound-with-ai-Practice-5) | Sound and AI analysis experiments |
+| [**Qrcode_in_python**](https://github.com/sunn789/Qrcode_in_python) | Python QR-code development practice |
 
-- **Backend:** ASP.NET Core, REST APIs, C#, .NET, MediatR, CQRS, Vertical Slice Architecture
-- **Architecture:** Clean Architecture, domain modeling, separation of concerns, feature-oriented design
-- **Data:** Entity Framework Core, SQL Server, SQLite, migrations, repositories, unit of work, pagination
-- **Security:** ASP.NET Core Identity, JWT, roles, claims, authorization policies, center-scoped access
-- **Frontend:** Angular, TypeScript, Razor Pages, HTML, CSS, JavaScript, Bootstrap
-- **Mobile:** Flutter and Dart with multi-platform project targets
-- **Python/AI:** OpenCV, MediaPipe, TFLite, NumPy, Librosa, SciPy, Matplotlib, computer vision, speech and audio analysis
-- **Engineering practices:** validation, API documentation, health checks, database seeding, reusable services, maintainable code, and production-minded workflows
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 
-## How I work
+## 🧰 Technical abilities
 
-I prefer readable code, explicit boundaries, secure defaults, meaningful validation, and software that reflects the business domain. I can contribute across the full path from requirement and domain model to application use case, database, API contract, UI, and deployment preparation.
+| Domain | Tools and practices |
+|---|---|
+| **Backend** | C#, .NET, ASP.NET Core, REST APIs, MediatR, CQRS, Vertical Slice Architecture |
+| **Architecture** | Clean Architecture, domain modeling, separation of concerns, feature-oriented design |
+| **Data** | EF Core, SQL Server, SQLite, migrations, repositories, unit of work, pagination |
+| **Security** | ASP.NET Core Identity, JWT, roles, claims, authorization policies, center-scoped access |
+| **Web UI** | Angular, TypeScript, Razor Pages, HTML, CSS, JavaScript, Bootstrap |
+| **Mobile** | Flutter, Dart, multi-platform application targets |
+| **Python / AI** | OpenCV, MediaPipe, TFLite, NumPy, Librosa, SciPy, Matplotlib, computer vision, speech and audio analysis |
+| **Engineering** | Validation, API documentation, health checks, database seeding, reusable services, maintainable code |
 
-## Open to opportunities
+## 💡 My engineering approach
+
+- **Business-first:** I start by understanding the workflow and domain rules.
+- **Clear boundaries:** I keep responsibilities separated so the code remains understandable.
+- **Secure by design:** Authentication and authorization are part of the architecture, not an afterthought.
+- **Practical delivery:** I care about usable interfaces, reliable data, validation, and operational health.
+- **Continuous learning:** I use projects across .NET, Flutter, Python, AI, and signal processing to keep expanding my engineering range.
+
+## 🚀 Open to opportunities
 
 I’m interested in opportunities as a **.NET Backend Developer**, **Full-Stack Developer**, or **Software Engineer** working on APIs, finance and administration platforms, workflow-heavy products, dashboards, mobile applications, or applied AI/data tools.
 
-- GitHub: [@sunn789](https://github.com/sunn789)
-- Main project: [Accountant3](https://github.com/sunn789/accountant3)
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-@sunn789-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunn789)
+[![Main project](https://img.shields.io/badge/Main_Project-Accountant3-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/sunn789/accountant3)
+
+**Thanks for visiting my profile.**
+
+</div>
