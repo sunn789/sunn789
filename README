@@ -1,1 +1,54 @@
+# Hi, I’m Sunn789 👋
 
+## Backend & Full-Stack .NET Developer
+
+I build secure, maintainable business applications that turn complex workflows into clear, reliable software. My strongest experience is in **ASP.NET Core backend development**, **Clean Architecture**, **CQRS**, **Entity Framework Core**, and modern web clients with **Angular** and **Razor Pages**.
+
+I’m especially interested in roles where I can work on APIs, financial or operational systems, authorization, data-heavy workflows, and products that need a thoughtful balance of correctness, security, and usability.
+
+## What I bring
+
+- Design and implement REST APIs with ASP.NET Core and OpenAPI
+- Structure applications with separation of concerns across API, Application, Core, Infrastructure, and UI layers
+- Build feature-oriented CQRS workflows with MediatR, AutoMapper, and FluentValidation
+- Model and query relational data with Entity Framework Core, SQLite, and SQL Server
+- Implement authentication and authorization with ASP.NET Core Identity, JWT, roles, claims, and policy-based rules
+- Build responsive authenticated interfaces with Angular, route guards, HTTP interceptors, and Razor Pages
+- Add operational safeguards such as health checks, database initialization, validation, pagination, and centralized API responses
+- Work with domain concepts such as budgeting, allocations, expenses, centers, users, roles, approvals, reports, and dashboards
+
+## Featured project: YAccountant
+
+A multi-layer financial management platform for managing budgets and expenses across organizational centers.
+
+**Highlights**
+
+- Budget allocation and adjustment workflows with approval and rejection states
+- Monthly expense registration, editing, deletion, debt details, and yearly reporting
+- Dashboard summaries, financial overviews, expense trends, and cost analysis
+- Role-aware access for administrators, accountants, and center-scoped users
+- JWT-secured API alongside an Identity-enabled Razor Pages application
+- Angular client with lazy-loaded features, authentication guards, role guards, and reusable services
+- Health-check endpoints, database migrations, seeded identity data, and OpenAPI/Scalar API documentation
+
+**Technology**
+
+`C#` `ASP.NET Core` `.NET 10` `MediatR` `CQRS` `Entity Framework Core` `SQL Server` `SQLite` `ASP.NET Core Identity` `JWT` `Angular` `TypeScript` `Razor Pages` `OpenAPI`
+
+[View the YAccountant repository →](https://github.com/sunn789/accountant3)
+
+## Engineering approach
+
+I value readable code, explicit boundaries, secure defaults, meaningful validation, and features that are understandable from the domain outward. I enjoy taking a requirement from its business meaning through the domain model, application use case, API contract, persistence layer, and user interface.
+
+## Currently focused on
+
+- Strengthening production readiness, testing, and observability in business applications
+- Improving API design and documentation
+- Deepening expertise in scalable .NET systems and modern Angular applications
+
+## Let’s connect
+
+If you are hiring a .NET backend or full-stack developer for a product involving APIs, finance, administration, or workflow-heavy systems, I’d be glad to connect.
+
+- GitHub: [@sunn789](https://github.com/sunn789)
